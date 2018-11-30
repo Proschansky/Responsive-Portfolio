@@ -1,0 +1,283 @@
+    .wrapper {
+        min-height: 100%;
+        margin-bottom: -50px;
+    }
+
+    body {
+        background-image: url("../images/hypnotize.png");
+        margin: 0px;
+    }
+
+    .btn {
+        border: none;
+        bottom: 60px;
+        background-color: #4aaaa5;
+        color: white;
+        cursor: pointer;
+        font-size: 1.5em;
+        font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
+        height: 50px;
+        padding: 12px,24px,0px,12px;
+        position: relative;
+        width: 100%;
+      }
+    
+    .btn:hover {
+        background-color: #3E0CE8
+    }
+
+    .heading {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 1.5em;
+        color: #4aaaa5;
+        text-align: initial;
+        width: 240px;
+        padding-left: 10px;
+    }
+
+    #header_background {
+        width: 100%;
+        background-color: #ffffff;
+        border-bottom: #cccccc solid 3px;
+        margin: 0px;
+    }
+
+    #links {
+        float:right;
+        height: 100%;
+        position: absolute;
+        right: 47px;
+        width: 33.33%;
+    }
+    
+    #main_content {
+        background-color: #ffffff;
+        width: 960px;
+        margin: auto;
+        margin-top:50px;
+        border: 3px #cccccc solid;
+        height: 400px;
+        align-self:center;
+    }
+
+    #header {
+        background-color: #ffffff;
+        font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
+        height: 100px;
+        width: 960px; 
+        margin-left: 269px;
+    }
+
+    .image {
+        display:block;
+        height: 200px;
+        padding-top:50px;
+        position: relative;
+        width: 200px;
+    }
+
+    #name {
+        background-color: #4aaaa5;
+        border-bottom: #4aaaa5 1px solid;
+        border-left: #ffffff solid 8px;
+        bottom:20px;
+        color: #ffffff;
+        float: left;
+        height: 100%;
+        line-height: 100px;
+        position: relative;
+        text-align: center;
+        width: 25%;
+    }
+
+    #about {
+        background-color: #ffffff;
+        color: #777777;
+        float:left;
+        height:80px;
+        line-height: 100px;
+        text-decoration: none;
+        width: 80px;
+        margin: 15px 0;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        }
+    
+    #about:hover {
+        line-height: 75px;
+        font-size: 1.5em;
+        font-weight: bold;
+        z-index: 2;
+        }
+
+    #portfolio {
+        background-color: #ffffff;
+        color: #777777;
+        float:left;
+        height:80px;
+        line-height: 100px;
+        text-decoration: none;
+        width: 80px;
+        margin: 15px;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+    }
+
+    #portfolio:hover {
+        line-height: 75px;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-right: 20px;
+        z-index: 3;
+     }
+
+    .project {
+        width: 200px;
+        height: 200px;
+    }
+     
+    #contact {
+        background-color: #ffffff;
+        color: #777777;
+        float:left;
+        height:80px;
+        line-height: 100px;
+        text-decoration: none;
+        width: 80px;
+        margin: 15px;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        z-index: 2;
+    }
+     
+    #contact:hover {
+        line-height: 75px;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-right: 25px;
+        z-index: 3;
+    }
+
+    #text_area {
+        background-color: #ffffff;
+        border-top: outset 3px #cccccc;
+        float: left;
+        width: 99%;
+    }
+
+    #text_area_1 {
+        background-color: #ffffff;
+        border-top: outset 3px #cccccc;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height:525px;
+        width: 99%;
+    }
+
+    #picture {
+        float: left;
+        padding-top: 30px;
+        margin: 50px;
+    }
+
+    .text {
+        font-style: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        color:#777777;
+        font-size: 1.2em;
+        text-align: justify;
+        margin-top: 100px;
+        margin-right: 25px;
+    }
+
+    .push {
+        height:200px;
+    }
+
+    .project {
+        height: 200px;
+        width: 200px;
+        padding: 50px;
+        z-index: -1;
+    }
+
+    #project_label {
+        position: relative;
+        float: left;
+    }
+
+    .footer {
+        background-color: #666666;
+        border-top: 20px #4aaaa5 solid;
+        bottom: 0px;
+        color:#777777;
+        font-weight: bold;
+        height: 50px;
+        margin: 0px;
+        padding-top: 70px;
+        text-align: center;
+        width:100%;
+    }
+
+    #name_label {
+        display: block;
+        padding-left: 5px;
+        text-align: left;
+        color: #777777
+    }
+
+    #country_label {
+        display: block;
+        padding-left: 5px;
+        text-align: left;
+        color: #777777 
+    }
+
+    #subject_label {
+        display: block;
+        padding-left: 5px;
+        text-align: left;
+        color: #777777 
+    }
+
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; /* Some padding */  
+        border: 1px solid #777777; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Makes sure that padding and width stays in place */
+        margin-top: 6px; /* Adds a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+    input[type=submit] {
+        background-color: #4aaaa5;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        float: left;
+        padding: 12px;
+    }
+
+/* When moving the mouse over the submit button, this adds a darker blue color */
+    input[type=submit]:hover {
+        background-color: #3E0CE8;
+    }
+
+    .container {
+        border: 3px #dddddd solid;
+        background-color: #ffffff;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 960px;
+    }
